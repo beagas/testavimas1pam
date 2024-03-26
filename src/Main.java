@@ -8,6 +8,7 @@ public class Main {
         System.out.println(assertEquals(String.valueOf(formatName("  naglis ")), "Naglis"));
         System.out.println(assertEquals(String.valueOf(formatName("  naglis jonas ")), "Naglis Jonas"));
         System.out.println(assertEquals(String.valueOf(formatName("  naglis    jonas ")), "Naglis Jonas"));
+
     }
 
     public static StringBuilder formatName(String name) {
