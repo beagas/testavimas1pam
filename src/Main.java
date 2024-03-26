@@ -3,7 +3,6 @@ public class Main {
         System.out.println("Hello world!");
 
         System.out.println(assertEquals(String.valueOf(formatName("NAGLIS")), "Naglis"));
-        System.out.println(assertEquals(String.valueOf(formatName("NAGLIS ")), "Naglis "));
         System.out.println(assertEquals(String.valueOf(formatName("nAGLIS")), "Naglis"));
         System.out.println(assertEquals(String.valueOf(formatName("  naglis ")), "Naglis"));
         System.out.println(assertEquals(String.valueOf(formatName("  naglis ")), "Naglis"));
